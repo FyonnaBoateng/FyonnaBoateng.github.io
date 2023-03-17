@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'FyonnaBoateng', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,57 +11,48 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'Fyonna',
     twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'NumPy',
+    'Pandas',
+    'MatPlotLib',
+    'TensorFlow',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'University of Reading & Oxford Internet Institute, University of Oxford',
+      position: 'Research Administrator and Associate',
+      from: 'July 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.oii.ox.ac.uk/research/projects/trustworthiness-auditing-for-ai/#participants',
     },
     {
-      company: 'Company Name',
+      company: 'Undergraduate Research Assistant',
       position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      from: 'Sep 2021',
+      to: 'June 2022',
     },
+    {
+      company: 'eFlow Global',
+      position: 'Data Analyst Intern',
+      from: 'Jan 2022',
+      to: 'March 2022',
+    },
+    {
+      company: 'Graft Thames Valley',
+      position: 'Social Researcher and Data Analyst Intern',
+      from: 'Feb 2021',
+      to: 'July 2021',
+    },
+    
   ],
   /* certifications: [
     {
@@ -73,13 +64,13 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Reading',
+      degree: 'BSc Psychology with Professional Placement',
+      from: '2020',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
+      institution: 'St. Clare\'s, Oxford',
       degree: 'Degree',
       from: '2012',
       to: '2014',
